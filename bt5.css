@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.item1{
+  flex-shrink: 1;
+  background-color: lightcoral;
+}
+
+.item2{
+  flex-shrink: 2;
+  background-color: lightblue;
+}
+
+.item3{
+  flex-shrink:3;
+  background-color: lightgreen;
+}

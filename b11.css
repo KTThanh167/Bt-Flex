@@ -1,0 +1,42 @@
+.holy-grail{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.middle-row{
+  display: flex;
+  flex-grow: 1;
+}
+
+.header{
+  background: black;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+
+.footer{
+  background: black;
+  height: 40px;
+  width: 100%;
+  color: white;
+}
+
+.nav{
+  width: 200px;
+  flex-shrink: 0;
+  background-color:  #f0f0f0;
+}
+
+.aside{
+  width: 160px;
+  flex-shrink: 0;
+  background-color:  #f0f0f0;
+}
+
+.main{
+  flex-grow: 1;
+  flex-shrink: 0;
+  background-color: #ffffff;
+}

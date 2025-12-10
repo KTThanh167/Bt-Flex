@@ -1,0 +1,35 @@
+.navbar{
+  display: flex;
+  background-color: aliceblue;
+}
+
+.logo{
+  flex: 0 0 120px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.menu{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a{
+  text-decoration: none;
+  color: black;
+}
+
+.actions{
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  flex: 0 0 auto;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

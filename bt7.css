@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    height: 100vh;
+    border-radius: 5px;
+}
+
+.side-bar{
+    width: 280px;
+    background-color:darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-bar li{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+}
+
+.main-content{
+    flex: 1;
+    background-color: white;
+}

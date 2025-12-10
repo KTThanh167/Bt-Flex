@@ -1,0 +1,49 @@
+.pricing-container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.pricing-card{
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  background-color: azure;
+  border-radius: 5px;
+  margin: 10px;
+  border:  2px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-card:hover{
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.featured{
+  border: 2px solid gold;
+  background-color: lightyellow;
+  box-shadow: 0 0 10px gold;
+}
+
+.pricing-card h3{
+  font-weight: bold;  
+  align-self: center;
+}
+
+.pricing-card li{
+  list-style: none;
+  padding-left: 0;
+}
+
+.price{
+  font-size: 2em;
+  font-weight: bold;
+  align-self: center;
+}
+
+.btn{
+  border-radius: 5px;
+  align-self: center;
+}

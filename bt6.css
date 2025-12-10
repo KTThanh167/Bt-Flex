@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.red{
+  background-color: red;
+  width: 100px;
+}
+
+.green{
+  background-color: green;
+  width: 200px;
+}
+
+.blue{
+  background-color: blue;
+  flex-grow: 1;
+}
